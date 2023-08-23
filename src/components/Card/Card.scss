@@ -1,0 +1,61 @@
+.card{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+
+    .images{
+        width: 110%;
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+
+        &:hover{
+            .secondImg{
+                z-index: 2;
+            }
+        }
+
+        img{
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            object-fit: cover;
+        }
+
+        .mainImg{
+            z-index: 1;
+        }
+
+        span{
+            position: absolute;
+            margin:20px 20px;
+            top:-20px;
+            left:-20px;
+            z-index: 3;
+            text-decoration: none;
+            color: teal;
+            background-color: rgba(238, 239, 238);
+            margin:20px;
+            font-weight: 500;
+            font-size: small;
+        }
+
+    }
+    .title{
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    h5{
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

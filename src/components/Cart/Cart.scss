@@ -1,0 +1,100 @@
+.cart{
+    display: flex;
+    flex-direction: column;
+    block-size: fit-content;
+    width: 30%;
+    background-color: #EAECEE ;
+    // border: 0.3px solid gray;
+    border-radius: 5px;
+    position:absolute;
+    right:40px;
+    top:70px;
+    z-index: 999;   
+
+    h3{
+        padding-left: 20px;
+        text-transform: uppercase;
+        color: gray;
+    }
+
+    .item{
+        padding-left: 10px;
+        display: flex;
+        gap:20px;
+        img{
+            width: 10%;
+            height: 60px;
+            object-fit: cover;
+            padding-top: 15px;
+        }
+        .details{
+            display: flex;
+            flex-direction: column;
+            span{
+                font-size: 12px;
+                padding-bottom: 10px;
+                color:gray;
+            }
+            .price{
+                font-weight: bold;
+                color: #3498DB;
+                font-size: 14px;
+            }
+        }
+    
+        .delete{
+            color: #de0b2e;
+            padding: 30px 10px;
+        }
+    }
+
+
+
+    .checkout{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 10px;
+        gap:30px;   
+        justify-content: space-between;
+
+        .total{
+            display: flex;
+            justify-content: space-between;
+        }
+        .others{
+            display: flex;
+            justify-content: space-between;
+        }
+        span{
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .proceed{
+            cursor: pointer;
+            display: flex;
+            border: none;
+            color: white;
+            text-transform: uppercase;
+            background-color: #3498DB;
+            padding: 10px;
+            border-radius: 3px;
+            align-items: center;
+            justify-content: center;
+        }
+        .reset{
+            color: white;
+            padding-right: 10px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 400;
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            border-radius: 3px;
+
+        }
+    }
+
+}

@@ -1,0 +1,22 @@
+.featuredProducts{
+    padding-left: 100px;
+    padding-top: 50px;
+    .top{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    
+    
+    .bottom{
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+    }
+
+}

@@ -1,0 +1,47 @@
+.contact{
+    background-color: rgb(69, 69, 199);
+    border-radius: 2px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    min-height: 50px;
+
+    .wrapper{
+        display: flex;
+        gap:20px;
+        width: 50%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px;
+    }
+
+    span{
+        text-transform: uppercase;
+        border: none;
+    }
+
+
+    input{
+        border-radius: 5px 0 0 5px;
+        border: none;
+        min-width: 100px;
+        min-height: 30px;
+    }
+
+    button{
+        border-radius: 0 5px 5px 0;
+        background-color: #333;
+        border: none;
+        color: white;
+        cursor: pointer;
+        min-height: 32px;
+        font-weight:500;
+        min-width: 50px;
+    }
+
+    .icons{
+        color: white;
+        gap:10px;
+        display: flex;
+    }
+}
