@@ -12,6 +12,10 @@ To run the Fashion Retailer eShop project, follow these steps:
 2. Navigate to the project directory using the command line.
 3. Run the project using your preferred development environment or build tool.
 
+# Visit the demo website
+
+https://myeshop2023.netlify.app
+
 ## How to Install Dependencies
 
 Before running the project, make sure you have the necessary dependencies installed. You can install the required dependencies by:
@@ -24,23 +28,21 @@ Before running the project, make sure you have the necessary dependencies instal
 
 The Fashion Retailer eShop demo comes with the following features:
 
-- Product browsing and search functionality.
-- User authentication and account management.
-- Shopping cart and checkout process.
-- Responsive design for mobile and desktop users.
-- Interactive user interface with rich visuals.
-- Product categorization and filtering.
+- A large homepage slider showcases the images of brand;
+- Dynamic product images for featured products.
+- A visual appealing layout for categories.
+- Products sorting system.
 
 ## To-Do List
 
-For future development, consider implementing the following:
+Initial stage aims to create a visual attractive website and layout.
+For next step development, consider implementing the following:
 
-- Enhanced user experience through personalized recommendations.
-- Integration with third-party payment gateways.
-- Social media sharing and engagement features.
-- Admin panel for managing products, orders, and user data.
+- Validate the functionalities of icons, buttons, links, images.
+- Validate the components of sorting system, add cart , reset cart and proceed payment.
+- Integration with third-party payment system.
+- Integration with database (preferrable MySQL via Strapi).
 - Performance optimization for faster loading times.
 - Multi-language and multi-currency support.
-- Integration with analytics tools for insights into user behavior.
 
 This to-do list provides a starting point for extending the Fashion Retailer eShop and enhancing its functionality.
