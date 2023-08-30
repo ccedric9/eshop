@@ -1,5 +1,9 @@
 # A Demo of Fashion Retailer eShop
 
+# Visit the demo website
+
+https://myeshop2023.netlify.app
+
 ## Introduction
 
 This document provides an overview of the Fashion Retailer eShop demo. It covers how to run the project, install dependencies, highlights the features of the website, and includes a to-do list for future development.
@@ -12,9 +16,6 @@ To run the Fashion Retailer eShop project, follow these steps:
 2. Navigate to the project directory using the command line.
 3. Run the project using your preferred development environment or build tool.
 
-# Visit the demo website
-
-https://myeshop2023.netlify.app
 
 ## How to Install Dependencies
 
