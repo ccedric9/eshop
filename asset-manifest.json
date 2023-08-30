@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ccedric9/eshop/static/css/main.c4c57c2c.css",
-    "main.js": "/ccedric9/eshop/static/js/main.1adaff71.js",
-    "static/media/payment.png": "/ccedric9/eshop/static/media/payment.35261b4cd87f561f305c.png",
-    "index.html": "/ccedric9/eshop/index.html",
-    "main.c4c57c2c.css.map": "/ccedric9/eshop/static/css/main.c4c57c2c.css.map",
-    "main.1adaff71.js.map": "/ccedric9/eshop/static/js/main.1adaff71.js.map"
+    "main.css": "/myeshop/static/css/main.c4c57c2c.css",
+    "main.js": "/myeshop/static/js/main.d58dfd34.js",
+    "static/media/payment.png": "/myeshop/static/media/payment.35261b4cd87f561f305c.png",
+    "index.html": "/myeshop/index.html",
+    "main.c4c57c2c.css.map": "/myeshop/static/css/main.c4c57c2c.css.map",
+    "main.d58dfd34.js.map": "/myeshop/static/js/main.d58dfd34.js.map"
   },
   "entrypoints": [
     "static/css/main.c4c57c2c.css",
-    "static/js/main.1adaff71.js"
+    "static/js/main.d58dfd34.js"
   ]
 }
